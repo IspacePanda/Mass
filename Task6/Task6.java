@@ -21,7 +21,7 @@ public class Task6 {
 		for (int i = 0; i < mas.length; i++) {
 			for (int j = 0; j < mas[i].length; j = j + 2) {
 				if (mas[0][j] > mas[mas.length - 1][j]) {
-					System.out.printf("{%3d} ", mas[i][j]);
+					System.out.printf("{%1d} ", mas[i][j]);
 				}
 			}
 			System.out.println();
